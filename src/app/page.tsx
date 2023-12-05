@@ -29,7 +29,7 @@ const FAQ = [
 ];
 
 export default function Home() {
-  const [openItem, setOpenItem] = useState('');
+  const [openItem, setOpenItem] = useState('item-1');
 
   return (
     <main className='bg-light-pink relative flex min-h-[100dvh] justify-center'>
